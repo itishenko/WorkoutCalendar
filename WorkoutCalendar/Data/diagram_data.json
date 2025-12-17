@@ -1,0 +1,178 @@
+{
+    "description": "GET /get_diagram_data?workoutId={workoutKey}&email=test@gmail.com",
+    "workouts": {
+        "7823456789012345": {
+            "description": "Walking/Running - 25 ноября, утренняя пробежка",
+            "data": [
+                {"time_numeric": 0, "heartRate": 72, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.2, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 12.5, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:30:00"},
+                {"time_numeric": 1, "heartRate": 85, "speed_kmh": 6.2, "distanceMeters": 103, "steps": 120, "elevation": 45.5, "latitude": 55.7562, "longitude": 37.6180, "temperatureCelsius": 12.5, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:31:00"},
+                {"time_numeric": 2, "heartRate": 92, "speed_kmh": 7.8, "distanceMeters": 233, "steps": 265, "elevation": 46.1, "latitude": 55.7568, "longitude": 37.6189, "temperatureCelsius": 12.4, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:32:00"},
+                {"time_numeric": 3, "heartRate": 98, "speed_kmh": 8.4, "distanceMeters": 373, "steps": 420, "elevation": 46.8, "latitude": 55.7575, "longitude": 37.6198, "temperatureCelsius": 12.4, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:33:00"},
+                {"time_numeric": 4, "heartRate": 105, "speed_kmh": 9.1, "distanceMeters": 525, "steps": 590, "elevation": 47.2, "latitude": 55.7583, "longitude": 37.6210, "temperatureCelsius": 12.3, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:34:00"},
+                {"time_numeric": 5, "heartRate": 112, "speed_kmh": 9.5, "distanceMeters": 683, "steps": 768, "elevation": 47.5, "latitude": 55.7592, "longitude": 37.6222, "temperatureCelsius": 12.3, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:35:00"},
+                {"time_numeric": 6, "heartRate": 118, "speed_kmh": 9.8, "distanceMeters": 846, "steps": 952, "elevation": 48.0, "latitude": 55.7601, "longitude": 37.6235, "temperatureCelsius": 12.2, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:36:00"},
+                {"time_numeric": 7, "heartRate": 122, "speed_kmh": 10.2, "distanceMeters": 1016, "steps": 1145, "elevation": 48.3, "latitude": 55.7611, "longitude": 37.6248, "temperatureCelsius": 12.2, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:37:00"},
+                {"time_numeric": 8, "heartRate": 128, "speed_kmh": 10.5, "distanceMeters": 1191, "steps": 1342, "elevation": 48.8, "latitude": 55.7621, "longitude": 37.6262, "temperatureCelsius": 12.1, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:38:00"},
+                {"time_numeric": 9, "heartRate": 132, "speed_kmh": 10.8, "distanceMeters": 1371, "steps": 1548, "elevation": 49.2, "latitude": 55.7632, "longitude": 37.6276, "temperatureCelsius": 12.1, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:39:00"},
+                {"time_numeric": 10, "heartRate": 135, "speed_kmh": 11.0, "distanceMeters": 1555, "steps": 1758, "elevation": 49.5, "latitude": 55.7643, "longitude": 37.6291, "temperatureCelsius": 12.0, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:40:00"},
+                {"time_numeric": 11, "heartRate": 138, "speed_kmh": 10.6, "distanceMeters": 1732, "steps": 1962, "elevation": 50.0, "latitude": 55.7655, "longitude": 37.6306, "temperatureCelsius": 12.0, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:41:00"},
+                {"time_numeric": 12, "heartRate": 140, "speed_kmh": 10.3, "distanceMeters": 1904, "steps": 2160, "elevation": 50.3, "latitude": 55.7667, "longitude": 37.6320, "temperatureCelsius": 11.9, "currentLayer": 1, "currentSubLayer": 3, "currentTimestamp": "2025-11-25 09:42:00"},
+                {"time_numeric": 13, "heartRate": 142, "speed_kmh": 9.9, "distanceMeters": 2069, "steps": 2352, "elevation": 50.8, "latitude": 55.7678, "longitude": 37.6335, "temperatureCelsius": 11.9, "currentLayer": 1, "currentSubLayer": 3, "currentTimestamp": "2025-11-25 09:43:00"},
+                {"time_numeric": 14, "heartRate": 144, "speed_kmh": 9.5, "distanceMeters": 2227, "steps": 2538, "elevation": 51.2, "latitude": 55.7690, "longitude": 37.6349, "temperatureCelsius": 11.8, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:44:00"},
+                {"time_numeric": 15, "heartRate": 145, "speed_kmh": 9.2, "distanceMeters": 2380, "steps": 2718, "elevation": 51.5, "latitude": 55.7701, "longitude": 37.6363, "temperatureCelsius": 11.8, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 09:45:00"},
+                {"time_numeric": 16, "heartRate": 143, "speed_kmh": 8.8, "distanceMeters": 2527, "steps": 2892, "elevation": 51.8, "latitude": 55.7712, "longitude": 37.6377, "temperatureCelsius": 11.7, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:46:00"},
+                {"time_numeric": 17, "heartRate": 140, "speed_kmh": 8.5, "distanceMeters": 2669, "steps": 3060, "elevation": 52.0, "latitude": 55.7723, "longitude": 37.6390, "temperatureCelsius": 11.7, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 09:47:00"},
+                {"time_numeric": 18, "heartRate": 136, "speed_kmh": 8.2, "distanceMeters": 2806, "steps": 3222, "elevation": 52.3, "latitude": 55.7734, "longitude": 37.6403, "temperatureCelsius": 11.6, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:48:00"},
+                {"time_numeric": 19, "heartRate": 132, "speed_kmh": 7.8, "distanceMeters": 2936, "steps": 3378, "elevation": 52.5, "latitude": 55.7744, "longitude": 37.6415, "temperatureCelsius": 11.6, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 09:49:00"},
+                {"time_numeric": 20, "heartRate": 128, "speed_kmh": 7.4, "distanceMeters": 3059, "steps": 3528, "elevation": 52.7, "latitude": 55.7754, "longitude": 37.6427, "temperatureCelsius": 11.5, "currentLayer": 2, "currentSubLayer": 3, "currentTimestamp": "2025-11-25 09:50:00"}
+            ],
+            "states": []
+        },
+        "7823456789012347": {
+            "description": "Water - 24 ноября, моржевание",
+            "data": [
+                {"time_numeric": 0, "heartRate": 68, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 12.0, "latitude": 55.8234, "longitude": 37.4521, "temperatureCelsius": 4.5, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:15:00"},
+                {"time_numeric": 1, "heartRate": 75, "speed_kmh": 1.2, "distanceMeters": 20, "steps": 0, "elevation": 12.0, "latitude": 55.8234, "longitude": 37.4522, "temperatureCelsius": 4.2, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:16:00"},
+                {"time_numeric": 2, "heartRate": 88, "speed_kmh": 2.1, "distanceMeters": 55, "steps": 0, "elevation": 12.0, "latitude": 55.8235, "longitude": 37.4524, "temperatureCelsius": 3.8, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:17:00"},
+                {"time_numeric": 3, "heartRate": 102, "speed_kmh": 2.5, "distanceMeters": 97, "steps": 0, "elevation": 12.0, "latitude": 55.8236, "longitude": 37.4526, "temperatureCelsius": 3.5, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:18:00"},
+                {"time_numeric": 4, "heartRate": 115, "speed_kmh": 2.8, "distanceMeters": 144, "steps": 0, "elevation": 12.0, "latitude": 55.8237, "longitude": 37.4528, "temperatureCelsius": 3.2, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:19:00"},
+                {"time_numeric": 5, "heartRate": 125, "speed_kmh": 3.0, "distanceMeters": 194, "steps": 0, "elevation": 12.0, "latitude": 55.8238, "longitude": 37.4530, "temperatureCelsius": 3.0, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:20:00"},
+                {"time_numeric": 6, "heartRate": 132, "speed_kmh": 2.6, "distanceMeters": 237, "steps": 0, "elevation": 12.0, "latitude": 55.8238, "longitude": 37.4532, "temperatureCelsius": 2.8, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:21:00"},
+                {"time_numeric": 7, "heartRate": 138, "speed_kmh": 2.2, "distanceMeters": 274, "steps": 0, "elevation": 12.0, "latitude": 55.8239, "longitude": 37.4533, "temperatureCelsius": 2.6, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:22:00"},
+                {"time_numeric": 8, "heartRate": 142, "speed_kmh": 1.8, "distanceMeters": 304, "steps": 0, "elevation": 12.0, "latitude": 55.8239, "longitude": 37.4534, "temperatureCelsius": 2.5, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-24 07:23:00"},
+                {"time_numeric": 9, "heartRate": 145, "speed_kmh": 1.5, "distanceMeters": 329, "steps": 0, "elevation": 12.0, "latitude": 55.8240, "longitude": 37.4535, "temperatureCelsius": 2.3, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:24:00"},
+                {"time_numeric": 10, "heartRate": 148, "speed_kmh": 1.2, "distanceMeters": 349, "steps": 0, "elevation": 12.0, "latitude": 55.8240, "longitude": 37.4536, "temperatureCelsius": 2.2, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:25:00"},
+                {"time_numeric": 11, "heartRate": 142, "speed_kmh": 1.8, "distanceMeters": 379, "steps": 0, "elevation": 12.0, "latitude": 55.8240, "longitude": 37.4537, "temperatureCelsius": 2.5, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:26:00"},
+                {"time_numeric": 12, "heartRate": 135, "speed_kmh": 2.2, "distanceMeters": 416, "steps": 0, "elevation": 12.0, "latitude": 55.8239, "longitude": 37.4535, "temperatureCelsius": 3.0, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 07:27:00"},
+                {"time_numeric": 13, "heartRate": 125, "speed_kmh": 2.0, "distanceMeters": 449, "steps": 0, "elevation": 12.0, "latitude": 55.8238, "longitude": 37.4533, "temperatureCelsius": 3.5, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-24 07:28:00"},
+                {"time_numeric": 14, "heartRate": 115, "speed_kmh": 1.5, "distanceMeters": 474, "steps": 0, "elevation": 12.0, "latitude": 55.8237, "longitude": 37.4531, "temperatureCelsius": 4.0, "currentLayer": 3, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:29:00"},
+                {"time_numeric": 15, "heartRate": 105, "speed_kmh": 1.0, "distanceMeters": 491, "steps": 0, "elevation": 12.0, "latitude": 55.8236, "longitude": 37.4529, "temperatureCelsius": 4.5, "currentLayer": 3, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 07:30:00"}
+            ],
+            "states": []
+        },
+        "7823456789012349": {
+            "description": "Cycling - 23 ноября, велопрогулка",
+            "data": [
+                {"time_numeric": 0, "heartRate": 70, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 150.0, "latitude": 55.6892, "longitude": 37.5421, "temperatureCelsius": 14.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:00:00"},
+                {"time_numeric": 1, "heartRate": 82, "speed_kmh": 12.5, "distanceMeters": 208, "steps": 0, "elevation": 151.2, "latitude": 55.6905, "longitude": 37.5445, "temperatureCelsius": 14.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:01:00"},
+                {"time_numeric": 2, "heartRate": 95, "speed_kmh": 18.3, "distanceMeters": 513, "steps": 0, "elevation": 152.8, "latitude": 55.6925, "longitude": 37.5482, "temperatureCelsius": 14.1, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:02:00"},
+                {"time_numeric": 3, "heartRate": 108, "speed_kmh": 22.1, "distanceMeters": 881, "steps": 0, "elevation": 154.5, "latitude": 55.6952, "longitude": 37.5528, "temperatureCelsius": 14.1, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:03:00"},
+                {"time_numeric": 4, "heartRate": 118, "speed_kmh": 25.6, "distanceMeters": 1308, "steps": 0, "elevation": 156.2, "latitude": 55.6985, "longitude": 37.5582, "temperatureCelsius": 14.2, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-23 10:04:00"},
+                {"time_numeric": 5, "heartRate": 125, "speed_kmh": 28.2, "distanceMeters": 1778, "steps": 0, "elevation": 158.0, "latitude": 55.7023, "longitude": 37.5642, "temperatureCelsius": 14.2, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-23 10:05:00"},
+                {"time_numeric": 6, "heartRate": 132, "speed_kmh": 30.5, "distanceMeters": 2286, "steps": 0, "elevation": 160.1, "latitude": 55.7068, "longitude": 37.5708, "temperatureCelsius": 14.3, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:06:00"},
+                {"time_numeric": 7, "heartRate": 138, "speed_kmh": 32.1, "distanceMeters": 2821, "steps": 0, "elevation": 162.5, "latitude": 55.7118, "longitude": 37.5780, "temperatureCelsius": 14.3, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:07:00"},
+                {"time_numeric": 8, "heartRate": 142, "speed_kmh": 33.8, "distanceMeters": 3384, "steps": 0, "elevation": 165.0, "latitude": 55.7172, "longitude": 37.5858, "temperatureCelsius": 14.4, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:08:00"},
+                {"time_numeric": 9, "heartRate": 145, "speed_kmh": 35.2, "distanceMeters": 3971, "steps": 0, "elevation": 167.8, "latitude": 55.7231, "longitude": 37.5942, "temperatureCelsius": 14.4, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:09:00"},
+                {"time_numeric": 10, "heartRate": 148, "speed_kmh": 34.5, "distanceMeters": 4546, "steps": 0, "elevation": 170.2, "latitude": 55.7295, "longitude": 37.6028, "temperatureCelsius": 14.5, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-23 10:10:00"},
+                {"time_numeric": 11, "heartRate": 150, "speed_kmh": 32.8, "distanceMeters": 5093, "steps": 0, "elevation": 172.5, "latitude": 55.7355, "longitude": 37.6112, "temperatureCelsius": 14.5, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-23 10:11:00"},
+                {"time_numeric": 12, "heartRate": 148, "speed_kmh": 30.2, "distanceMeters": 5596, "steps": 0, "elevation": 174.0, "latitude": 55.7410, "longitude": 37.6190, "temperatureCelsius": 14.6, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:12:00"},
+                {"time_numeric": 13, "heartRate": 145, "speed_kmh": 28.5, "distanceMeters": 6071, "steps": 0, "elevation": 175.2, "latitude": 55.7462, "longitude": 37.6262, "temperatureCelsius": 14.6, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-23 10:13:00"},
+                {"time_numeric": 14, "heartRate": 140, "speed_kmh": 26.1, "distanceMeters": 6506, "steps": 0, "elevation": 176.0, "latitude": 55.7508, "longitude": 37.6328, "temperatureCelsius": 14.7, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:14:00"},
+                {"time_numeric": 15, "heartRate": 135, "speed_kmh": 24.2, "distanceMeters": 6909, "steps": 0, "elevation": 176.5, "latitude": 55.7550, "longitude": 37.6388, "temperatureCelsius": 14.7, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-23 10:15:00"}
+            ],
+            "states": []
+        },
+        "7823456789012350": {
+            "description": "Walking/Running - 22 ноября, длинная пробежка",
+            "data": [
+                {"time_numeric": 0, "heartRate": 70, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 120.0, "latitude": 55.7012, "longitude": 37.5890, "temperatureCelsius": 6.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 08:30:00"},
+                {"time_numeric": 2, "heartRate": 88, "speed_kmh": 7.5, "distanceMeters": 250, "steps": 280, "elevation": 121.5, "latitude": 55.7028, "longitude": 37.5912, "temperatureCelsius": 6.0, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-22 08:32:00"},
+                {"time_numeric": 4, "heartRate": 102, "speed_kmh": 9.2, "distanceMeters": 557, "steps": 625, "elevation": 123.2, "latitude": 55.7052, "longitude": 37.5945, "temperatureCelsius": 6.1, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-22 08:34:00"},
+                {"time_numeric": 6, "heartRate": 115, "speed_kmh": 10.5, "distanceMeters": 907, "steps": 1020, "elevation": 125.0, "latitude": 55.7082, "longitude": 37.5985, "temperatureCelsius": 6.1, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 08:36:00"},
+                {"time_numeric": 8, "heartRate": 125, "speed_kmh": 11.2, "distanceMeters": 1280, "steps": 1440, "elevation": 127.0, "latitude": 55.7118, "longitude": 37.6030, "temperatureCelsius": 6.2, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-22 08:38:00"},
+                {"time_numeric": 10, "heartRate": 132, "speed_kmh": 11.8, "distanceMeters": 1673, "steps": 1882, "elevation": 129.2, "latitude": 55.7158, "longitude": 37.6080, "temperatureCelsius": 6.2, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-22 08:40:00"},
+                {"time_numeric": 12, "heartRate": 138, "speed_kmh": 12.0, "distanceMeters": 2073, "steps": 2332, "elevation": 131.5, "latitude": 55.7200, "longitude": 37.6132, "temperatureCelsius": 6.3, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 08:42:00"},
+                {"time_numeric": 14, "heartRate": 142, "speed_kmh": 11.5, "distanceMeters": 2456, "steps": 2765, "elevation": 133.0, "latitude": 55.7242, "longitude": 37.6182, "temperatureCelsius": 6.3, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-22 08:44:00"},
+                {"time_numeric": 16, "heartRate": 145, "speed_kmh": 11.0, "distanceMeters": 2823, "steps": 3180, "elevation": 134.2, "latitude": 55.7282, "longitude": 37.6230, "temperatureCelsius": 6.4, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-22 08:46:00"},
+                {"time_numeric": 18, "heartRate": 148, "speed_kmh": 10.5, "distanceMeters": 3173, "steps": 3578, "elevation": 135.0, "latitude": 55.7320, "longitude": 37.6275, "temperatureCelsius": 6.4, "currentLayer": 2, "currentSubLayer": 3, "currentTimestamp": "2025-11-22 08:48:00"},
+                {"time_numeric": 20, "heartRate": 150, "speed_kmh": 10.0, "distanceMeters": 3506, "steps": 3958, "elevation": 135.5, "latitude": 55.7355, "longitude": 37.6318, "temperatureCelsius": 6.5, "currentLayer": 3, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 08:50:00"}
+            ],
+            "states": []
+        },
+        "7823456789012346": {
+            "description": "Yoga - 25 ноября, вечерняя йога",
+            "data": [
+                {"time_numeric": 0, "heartRate": 68, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 18:00:00"},
+                {"time_numeric": 5, "heartRate": 72, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 18:05:00"},
+                {"time_numeric": 10, "heartRate": 78, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-25 18:10:00"},
+                {"time_numeric": 15, "heartRate": 82, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 3, "currentTimestamp": "2025-11-25 18:15:00"},
+                {"time_numeric": 20, "heartRate": 85, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 4, "currentTimestamp": "2025-11-25 18:20:00"},
+                {"time_numeric": 25, "heartRate": 80, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 5, "currentTimestamp": "2025-11-25 18:25:00"},
+                {"time_numeric": 30, "heartRate": 75, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 6, "currentTimestamp": "2025-11-25 18:30:00"},
+                {"time_numeric": 35, "heartRate": 72, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 0, "currentSubLayer": 7, "currentTimestamp": "2025-11-25 18:35:00"},
+                {"time_numeric": 40, "heartRate": 70, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-25 18:40:00"},
+                {"time_numeric": 45, "heartRate": 68, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 22.0, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-25 18:45:00"}
+            ],
+            "states": []
+        },
+        "7823456789012348": {
+            "description": "Walking/Running - 24 ноября, вечерний бег",
+            "data": [
+                {"time_numeric": 0, "heartRate": 72, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 35.0, "latitude": 55.7320, "longitude": 37.5850, "temperatureCelsius": 8.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 17:45:00"},
+                {"time_numeric": 2, "heartRate": 90, "speed_kmh": 8.5, "distanceMeters": 283, "steps": 320, "elevation": 36.2, "latitude": 55.7342, "longitude": 37.5882, "temperatureCelsius": 8.0, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 17:47:00"},
+                {"time_numeric": 4, "heartRate": 108, "speed_kmh": 10.2, "distanceMeters": 623, "steps": 702, "elevation": 37.8, "latitude": 55.7375, "longitude": 37.5925, "temperatureCelsius": 7.9, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-24 17:49:00"},
+                {"time_numeric": 6, "heartRate": 122, "speed_kmh": 11.5, "distanceMeters": 1006, "steps": 1135, "elevation": 39.5, "latitude": 55.7415, "longitude": 37.5978, "temperatureCelsius": 7.9, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 17:51:00"},
+                {"time_numeric": 8, "heartRate": 135, "speed_kmh": 12.2, "distanceMeters": 1413, "steps": 1595, "elevation": 41.2, "latitude": 55.7460, "longitude": 37.6038, "temperatureCelsius": 7.8, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 17:53:00"},
+                {"time_numeric": 10, "heartRate": 142, "speed_kmh": 12.8, "distanceMeters": 1839, "steps": 2078, "elevation": 43.0, "latitude": 55.7510, "longitude": 37.6102, "temperatureCelsius": 7.8, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-24 17:55:00"},
+                {"time_numeric": 12, "heartRate": 148, "speed_kmh": 12.5, "distanceMeters": 2256, "steps": 2552, "elevation": 44.5, "latitude": 55.7558, "longitude": 37.6165, "temperatureCelsius": 7.7, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 17:57:00"},
+                {"time_numeric": 14, "heartRate": 152, "speed_kmh": 12.0, "distanceMeters": 2656, "steps": 3008, "elevation": 45.8, "latitude": 55.7602, "longitude": 37.6225, "temperatureCelsius": 7.7, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 17:59:00"},
+                {"time_numeric": 16, "heartRate": 150, "speed_kmh": 11.5, "distanceMeters": 3040, "steps": 3448, "elevation": 46.5, "latitude": 55.7642, "longitude": 37.6280, "temperatureCelsius": 7.6, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-24 18:01:00"},
+                {"time_numeric": 18, "heartRate": 145, "speed_kmh": 10.8, "distanceMeters": 3400, "steps": 3862, "elevation": 47.0, "latitude": 55.7678, "longitude": 37.6330, "temperatureCelsius": 7.6, "currentLayer": 3, "currentSubLayer": 0, "currentTimestamp": "2025-11-24 18:03:00"},
+                {"time_numeric": 20, "heartRate": 140, "speed_kmh": 10.2, "distanceMeters": 3740, "steps": 4252, "elevation": 47.2, "latitude": 55.7710, "longitude": 37.6375, "temperatureCelsius": 7.5, "currentLayer": 3, "currentSubLayer": 1, "currentTimestamp": "2025-11-24 18:05:00"}
+            ],
+            "states": []
+        },
+        "7823456789012351": {
+            "description": "Yoga - 22 ноября, хатха-йога",
+            "data": [
+                {"time_numeric": 0, "heartRate": 65, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 19:00:00"},
+                {"time_numeric": 5, "heartRate": 70, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-22 19:05:00"},
+                {"time_numeric": 10, "heartRate": 75, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-22 19:10:00"},
+                {"time_numeric": 15, "heartRate": 80, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 3, "currentTimestamp": "2025-11-22 19:15:00"},
+                {"time_numeric": 20, "heartRate": 78, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 4, "currentTimestamp": "2025-11-22 19:20:00"},
+                {"time_numeric": 25, "heartRate": 72, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 0, "currentSubLayer": 5, "currentTimestamp": "2025-11-22 19:25:00"},
+                {"time_numeric": 30, "heartRate": 68, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-22 19:30:00"},
+                {"time_numeric": 35, "heartRate": 65, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 45.0, "latitude": 55.7558, "longitude": 37.6173, "temperatureCelsius": 21.0, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-22 19:35:00"}
+            ],
+            "states": []
+        },
+        "7823456789012352": {
+            "description": "Water - 21 ноября, утреннее закаливание",
+            "data": [
+                {"time_numeric": 0, "heartRate": 65, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 15.0, "latitude": 55.8100, "longitude": 37.4200, "temperatureCelsius": 3.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:45:00"},
+                {"time_numeric": 1, "heartRate": 78, "speed_kmh": 1.0, "distanceMeters": 17, "steps": 0, "elevation": 15.0, "latitude": 55.8100, "longitude": 37.4201, "temperatureCelsius": 2.8, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:46:00"},
+                {"time_numeric": 2, "heartRate": 95, "speed_kmh": 1.8, "distanceMeters": 47, "steps": 0, "elevation": 15.0, "latitude": 55.8101, "longitude": 37.4203, "temperatureCelsius": 2.5, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 06:47:00"},
+                {"time_numeric": 3, "heartRate": 112, "speed_kmh": 2.2, "distanceMeters": 84, "steps": 0, "elevation": 15.0, "latitude": 55.8102, "longitude": 37.4205, "temperatureCelsius": 2.2, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 06:48:00"},
+                {"time_numeric": 4, "heartRate": 128, "speed_kmh": 2.5, "distanceMeters": 126, "steps": 0, "elevation": 15.0, "latitude": 55.8103, "longitude": 37.4207, "temperatureCelsius": 2.0, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:49:00"},
+                {"time_numeric": 5, "heartRate": 140, "speed_kmh": 2.0, "distanceMeters": 159, "steps": 0, "elevation": 15.0, "latitude": 55.8103, "longitude": 37.4208, "temperatureCelsius": 1.8, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:50:00"},
+                {"time_numeric": 6, "heartRate": 148, "speed_kmh": 1.5, "distanceMeters": 184, "steps": 0, "elevation": 15.0, "latitude": 55.8104, "longitude": 37.4209, "temperatureCelsius": 1.5, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 06:51:00"},
+                {"time_numeric": 7, "heartRate": 145, "speed_kmh": 1.8, "distanceMeters": 214, "steps": 0, "elevation": 15.0, "latitude": 55.8103, "longitude": 37.4208, "temperatureCelsius": 2.0, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 06:52:00"},
+                {"time_numeric": 8, "heartRate": 135, "speed_kmh": 2.0, "distanceMeters": 247, "steps": 0, "elevation": 15.0, "latitude": 55.8102, "longitude": 37.4206, "temperatureCelsius": 2.5, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:53:00"},
+                {"time_numeric": 9, "heartRate": 120, "speed_kmh": 1.5, "distanceMeters": 272, "steps": 0, "elevation": 15.0, "latitude": 55.8101, "longitude": 37.4204, "temperatureCelsius": 3.0, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 06:54:00"},
+                {"time_numeric": 10, "heartRate": 105, "speed_kmh": 1.0, "distanceMeters": 289, "steps": 0, "elevation": 15.0, "latitude": 55.8100, "longitude": 37.4202, "temperatureCelsius": 3.0, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 06:55:00"}
+            ],
+            "states": []
+        },
+        "7823456789012353": {
+            "description": "Strength - 21 ноября, силовая тренировка",
+            "data": [
+                {"time_numeric": 0, "heartRate": 70, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 0, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 16:30:00"},
+                {"time_numeric": 5, "heartRate": 95, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 0, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 16:35:00"},
+                {"time_numeric": 10, "heartRate": 115, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 0, "currentSubLayer": 2, "currentTimestamp": "2025-11-21 16:40:00"},
+                {"time_numeric": 15, "heartRate": 130, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 1, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 16:45:00"},
+                {"time_numeric": 20, "heartRate": 142, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 1, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 16:50:00"},
+                {"time_numeric": 25, "heartRate": 135, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 1, "currentSubLayer": 2, "currentTimestamp": "2025-11-21 16:55:00"},
+                {"time_numeric": 30, "heartRate": 148, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 2, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 17:00:00"},
+                {"time_numeric": 35, "heartRate": 155, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 2, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 17:05:00"},
+                {"time_numeric": 40, "heartRate": 140, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 2, "currentSubLayer": 2, "currentTimestamp": "2025-11-21 17:10:00"},
+                {"time_numeric": 45, "heartRate": 125, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 3, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 17:15:00"},
+                {"time_numeric": 50, "heartRate": 145, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 3, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 17:20:00"},
+                {"time_numeric": 55, "heartRate": 152, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 3, "currentSubLayer": 2, "currentTimestamp": "2025-11-21 17:25:00"},
+                {"time_numeric": 60, "heartRate": 138, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 4, "currentSubLayer": 0, "currentTimestamp": "2025-11-21 17:30:00"},
+                {"time_numeric": 65, "heartRate": 110, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 4, "currentSubLayer": 1, "currentTimestamp": "2025-11-21 17:35:00"},
+                {"time_numeric": 70, "heartRate": 90, "speed_kmh": 0.0, "distanceMeters": 0, "steps": 0, "elevation": 50.0, "latitude": 55.7500, "longitude": 37.6000, "temperatureCelsius": 20.0, "currentLayer": 4, "currentSubLayer": 2, "currentTimestamp": "2025-11-21 17:40:00"}
+            ],
+            "states": []
+        }
+    }
+}
