@@ -1,114 +1,114 @@
 # Workout Calendar
 
-Приложение-календарь для отображения тренировок на SwiftUI с архитектурой MVVM + Coordinator.
+A SwiftUI calendar app for displaying workouts, built with MVVM + Coordinator architecture.
 
-## 📋 Требования
+## 📋 Requirements
 
-- **Xcode**: 15.0 или выше
+- **Xcode**: 15.0 or later
 - **iOS**: 17.0+
 - **Swift**: 5.9+
 - **macOS**: 13.0+ (Ventura)
 
-## 🚀 Запуск приложения
+## 🚀 Run the App
 
-1. **Откройте проект**:
+1. **Open the project**:
    ```bash
    open WorkoutCalendar.xcodeproj
    ```
 
-2. **Добавьте файлы данных** (если еще не добавлены):
-   - В Xcode перетащите JSON файлы из папки `Data/` в Project Navigator
-   - Убедитесь, что выбран Target: **WorkoutCalendar**
-   - Проверьте **Build Phases → Copy Bundle Resources** (должны быть 3 JSON файла)
+2. **Add data files** (if not added yet):
+   - In Xcode, drag JSON files from the `Data/` folder into Project Navigator
+   - Make sure the target is **WorkoutCalendar**
+   - Check **Build Phases -> Copy Bundle Resources** (there should be 3 JSON files)
 
-3. **Выберите симулятор**:
-   - Любой iPhone с iOS 17.0+
-   - Рекомендуется: iPhone 15 Pro
+3. **Choose a simulator**:
+   - Any iPhone with iOS 17.0+
+   - Recommended: iPhone 15 Pro
 
-4. **Запустите проект**:
+4. **Run the project**:
    ```
    ⌘ + R  (Run)
    ⌘ + U  (Run Tests)
    ```
 
-5. **Просмотр тренировок**:
-   - Переключитесь на ноябрь 2025 (кнопка ◀)
-   - Выберите дни с 21 по 25 ноября (отмечены синей точкой)
-   - Нажмите на тренировку для просмотра деталей
+5. **View workouts**:
+   - Switch to November 2025 (◀ button)
+   - Select November 21-25 (marked with blue dots)
+   - Tap a workout to open details
 
-## 🏗 Архитектура
+## 🏗 Architecture
 
-Проект реализован с использованием **MVVM + Coordinator** паттерна с четким разделением ответственности. **Models** содержат структуры данных и бизнес-логику форматирования, **Views** отвечают только за отображение UI, **ViewModels** управляют состоянием и presentation-логикой, а **Coordinator** централизованно управляет навигацией между экранами. **Services** изолируют работу с данными через протоколы, что обеспечивает тестируемость и гибкость.
+The project follows the **MVVM + Coordinator** pattern with clear separation of concerns. **Models** contain data structures and formatting business logic, **Views** focus only on UI rendering, **ViewModels** manage state and presentation logic, and the **Coordinator** centralizes screen navigation. **Services** isolate data access behind protocols for flexibility and testability.
 
-Все асинхронные операции реализованы через современный `async/await`, состояние управляется через Combine (`@Published`, `ObservableObject`), а навигация типизирована через `enum NavigationDestination` для безопасности на этапе компиляции. Проект следует Protocol-Oriented Programming подходу для легкой подмены реализаций и тестирования с моками.
+All asynchronous operations use modern `async/await`, state is managed via Combine (`@Published`, `ObservableObject`), and navigation is type-safe through `enum NavigationDestination` for compile-time safety. The project follows a protocol-oriented approach to support mock-based testing and easy implementation swapping.
 
-### Структура проекта
+### Project Structure
 
 ```
 WorkoutCalendar/
-├── Coordinators/       # Управление навигацией
-├── Models/             # Модели данных и расширения
-├── Services/           # Работа с данными (JSON)
-├── ViewModels/         # Presentation логика
-└── Views/              # SwiftUI компоненты
+├── Coordinators/       # Navigation management
+├── Models/             # Data models and extensions
+├── Services/           # Data layer (JSON)
+├── ViewModels/         # Presentation logic
+└── Views/              # SwiftUI components
 ```
 
-## 🧪 Покрытие тестами
+## 🧪 Test Coverage
 
-### CalendarViewModel (14 тестов)
-- ✅ Навигация по месяцам (вперёд/назад, множественные переходы)
-- ✅ Выбор и проверка дат (текущий день, выбранный день)
-- ✅ Фильтрация событий по дням
-- ✅ Генерация календарной сетки (количество дней, offset первого дня)
-- ✅ Форматирование дат (месяц/год на русском)
-- ✅ Определение наличия событий в днях
-- ✅ Загрузка данных (успешная/с ошибкой)
+### CalendarViewModel (14 tests)
+- ✅ Month navigation (forward/backward, multiple transitions)
+- ✅ Date selection and checks (current day, selected day)
+- ✅ Event filtering by day
+- ✅ Calendar grid generation (day count, first day offset)
+- ✅ Date formatting (month/year in Russian locale)
+- ✅ Event presence checks for calendar days
+- ✅ Data loading (success/error paths)
 
-### EventDetailsViewModel (11 тестов)
-- ✅ Инициализация и загрузка метаданных
-- ✅ Форматирование дистанции (км/м, нулевые/некорректные значения)
-- ✅ Форматирование длительности (часы/минуты, edge cases)
-- ✅ Форматирование температуры и влажности
-- ✅ Обработка ошибок и отсутствующих данных
-- ✅ Computed properties для UI (title, dateTime, description)
+### EventDetailsViewModel (11 tests)
+- ✅ Initialization and metadata loading
+- ✅ Distance formatting (km/m, zero/invalid values)
+- ✅ Duration formatting (hours/minutes, edge cases)
+- ✅ Temperature and humidity formatting
+- ✅ Error handling and missing data behavior
+- ✅ Computed properties for UI (title, dateTime, description)
 
-### Workout Models (13 тестов)
-- ✅ Парсинг дат (корректные/некорректные форматы)
-- ✅ JSON декодирование (WorkoutListResponse, MetadataResponse)
-- ✅ Форматирование данных в моделях
-- ✅ Edge cases (нулевые значения, некорректные данные)
+### Workout Models (13 tests)
+- ✅ Date parsing (valid/invalid formats)
+- ✅ JSON decoding (WorkoutListResponse, MetadataResponse)
+- ✅ Model-level data formatting
+- ✅ Edge cases (zero values, invalid data)
 
-**Итого**: 30+ unit тестов с полным покрытием ключевой логики.
+**Total**: 30+ unit tests covering core logic.
 
-## 📱 Основной функционал
+## 📱 Core Features
 
-- 📅 Календарь месяца с навигацией
-- 🔵 Визуальные индикаторы (текущий день, дни с событиями)
-- 📋 Список событий выбранного дня
-- 📊 Детальная информация о тренировке
-- 📈 График пульса на основе данных тренировки
-- 🌓 Поддержка светлой и тёмной темы
-- 📱 Адаптивный дизайн (iPhone SE - 15 Pro Max)
+- 📅 Monthly calendar with navigation
+- 🔵 Visual indicators (current day, days with events)
+- 📋 Event list for selected day
+- 📊 Detailed workout information
+- 📈 Heart-rate chart based on workout data
+- 🌓 Light and dark mode support
+- 📱 Adaptive layout (iPhone SE to 15 Pro Max)
 
-## 🎨 Особенности
+## 🎨 Highlights
 
-- **Локализация**: Все даты и названия тренировок на русском языке
-- **Типизация**: Type-safe навигация через Coordinator
-- **Реактивность**: Combine для автоматического обновления UI
-- **Асинхронность**: Современный async/await вместо callbacks
-- **Тестируемость**: Protocol-oriented design с моками
-- **UI/UX**: Цветовая кодировка активностей, анимации, loading states
+- **Localization**: Dates and workout names are shown in Russian
+- **Type Safety**: Type-safe navigation through Coordinator
+- **Reactivity**: Combine-based automatic UI updates
+- **Concurrency**: Modern async/await instead of callbacks
+- **Testability**: Protocol-oriented design with mocks
+- **UI/UX**: Activity color coding, animations, loading states
 
-## 📚 Дополнительная документация
+## 📚 Additional Documentation
 
-Подробная документация доступна в корне проекта:
-- `../QUICK_START.md` - быстрый старт
-- `../PROJECT_SUMMARY.md` - обзор проекта
-- `../IMPLEMENTATION_SUMMARY.md` - детали реализации
-- `../XCODE_SETUP.md` - настройка проекта
+Detailed documentation is available in the project root:
+- `../QUICK_START.md` - quick start guide
+- `../PROJECT_SUMMARY.md` - project overview
+- `../IMPLEMENTATION_SUMMARY.md` - implementation details
+- `../XCODE_SETUP.md` - project setup
 
 ---
 
-**Автор**: Ivan Tishchenko  
-**Дата**: Декабрь 2025  
-**Версия**: 1.0
+**Author**: Ivan Tishchenko  
+**Date**: December 2025  
+**Version**: 1.0
